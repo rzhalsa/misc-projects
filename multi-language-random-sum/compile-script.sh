@@ -6,3 +6,4 @@
 gcc -c -std=c11 -o random-sum.o random-sum.c -Wall -Wextra
 gcc random-sum.o -shared -o random-sum.so -Wall -Wextra
 rm random-sum.o
+echo "Compilation Complete!"
