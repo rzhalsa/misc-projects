@@ -4,6 +4,10 @@ This repository is simply a collection of other noteworthy small projects I have
 
 ## List of Projects
 
+- Loan Balance Calculator
+
+    - Calculates the remaining loan balance and total interest paid of an amortized loan after a provided number of months.
+
 - Rock Paper Scissors
   
     - Simulates a game of rock paper scissors in Prolog.
