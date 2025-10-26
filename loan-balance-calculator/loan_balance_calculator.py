@@ -1,5 +1,3 @@
-import sys
-
 # loan_balance_calculator.py
 #
 # Calculates the remaining loan balance and interest paid of an amortized loan after a provided number of months. 
