@@ -1,6 +1,7 @@
 # loan_balance_calculator.py
 #
-# Calculates the remaining loan balance and interest paid of an amortized loan after a provided number of months. 
+# Calculates the remaining loan balance and total interest paid of an amortized loan
+# after a provided number of months. 
 #
 # Author: Ryan McHenry
 # Date: October 26, 2025
@@ -9,7 +10,6 @@ def main():
     # Get user input
     print("What is the total balance of the loan? (Format as 1234.56): ", end="")
     loan_balance = float(input())
-    loan_balance_copy = loan_balance
     print("What is the APR? (Format as 1.23): ", end="")
     apr = float(input())
     print("What is the monthly payment in dollars? (Format as 123.45): ", end="")
@@ -36,7 +36,7 @@ def main():
 
     # Print out remaining balance and amount of interest paid
     print(f"\nLoan balance in {num_months} months: ${loan_balance:.2f}")
-    print(f"Total interest paid: {total_interest_paid:.2f} \n")
+    print(f"Total interest paid: ${total_interest_paid:.2f} \n")
 
 def calculate_interest(total, apr):
     return (total * (apr / 100)) / 12
